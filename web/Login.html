@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="cssFile.css">
+<script src="JSFile.js" type="text/javascript"></script>
+</head>
+<body id="mybody">
+	<div id="div1">
+		<h1 id="myh1">Candidate Login</h1>
+		<p id="myh1">
+			Select your role at first ! then, Enter your name and your password<br>
+			Then, click on the Login button.
+		</p>
+		<br> <br> <br> <br>
+
+		<form action="logValidation" method="POST" onsubmit="return Check();">
+			<table id="tb1">
+				<tr>
+					<td></td>
+					<td>Candidate<input id="cand" type="checkbox" name="CAND"
+						value="Candidate">
+				</tr>
+				<tr>
+					<td id="td1">User Name</td>
+					<td><input id="uname" type="text" name="UN"></td>
+				</tr>
+				<tr>
+					<td id="td1">Password</td>
+					<td><input id="pass" type="password" name="PASS"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input id="sbt" type="submit" value="Login" name="sub"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><br> <br> <br>
+						<p id="myh1">
+							If you don't have an account ,you can <a href="Signup.html"
+								style="color: #165165;">Sign Up</a> </p></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

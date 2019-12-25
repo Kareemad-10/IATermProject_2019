@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1256">
+<title>Sign Up Page</title>
+<link rel="stylesheet" href="cssFile.css">
+</head>
+<body id="mybody">
+	<div id="div1">
+		<h1 id="myh1">Sign Up</h1>
+		<p id="myh1">
+			Enter your name and your password<br> Then, click on the Sign up
+			button.
+		</p>
+		<br> <br> <br> <br>
+		<form action="SignUP" method="POST" onsubmit="return SignUP_Check();">
+			<table id="tb1">
+				<tr>
+					<td id="td1">User Name</td>
+					<td><input id="un" type="text" name="UN" oninput="UN_exicte()"></td>
+					<td><label id="show_response" style="color: white;"></label></td>
+				</tr>
+				<tr>
+					<td id="td1">Password</td>
+					<td><input id="pass" type="password" name="PASS"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input id="sbt" type="submit" value="Sign Up" name="sub"></td>
+				</tr>
+			</table>
+
+		</form>
+	</div>
+</body>
+<script src="JSFile.js" type="text/javascript"></script>
+</html>

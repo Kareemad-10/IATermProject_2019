@@ -1,0 +1,39 @@
+<!-- 
+    Document   : index
+    Created on : Dec 11, 2019, 1:41:20 AM
+    Author     : Kareem E.Farouk
+-->
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> User Selection </title>
+        <style type="text/css">
+            body{
+                background-color: black;
+            }
+        </style>
+    <script type="text/javascript">
+        function redirect() {
+            var formObject = document.getElementById("form_user_select");
+            formObject.action = "Login.html";
+            formObject.submit();
+       };
+    </script>    
+        
+    </head>
+    
+    <body>
+    <center><h2 style="color: white;"> Welcome to HR-Candidate Web Application </h2></center>
+        <center><h3 style="color: white;">Please select user type: </h3><br>
+        <form name="userSelectForm" action="HR_login.jsp" method="POST" id="form_user_select">
+            <input type="submit" value="HR Login" name="hr_login_page" style="width: 120px; height: 50px;"/>
+            <input type="button" onclick="redirect()" value="Candidate Login" name="candidate_login_page" style="width: 120px; height: 50px;"/>
+        </form>               
+        </center>
+        </body>
+</html>

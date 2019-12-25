@@ -1,0 +1,231 @@
+@charset "windows-1256";
+
+#mybody {
+	background-color: darkgray;
+	size: auto;
+}
+
+#uname {
+	text-shadow: orange;
+	color: #165165;
+	border-radius: 150px;
+	background-color: lightred;
+	width: 200px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#pass {
+	text-shadow: orange;
+	color: #165165;
+	border-radius: 150px;
+	background-color: lightred;
+	width: 200px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#div1 {
+	background-color: #165165;
+	margin: auto;
+	width: 1800px;
+	border-left: 2px solid White;
+	padding-left: 500px;
+}
+
+#CorDiv {
+	font-style: oblique;
+	padding-left: 80%;
+	background-color: white;
+	box-shadow: 0px 3px 20px 20px black;
+}
+
+#tb1 {
+	padding-bottom: 200px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#myh1 {
+	font-style: italic;
+	color: white;
+}
+
+#se {
+	font-style: italic;
+	text-shadow: orange;
+	color: black;
+	border-radius: 150px;
+	background-color: lightred;
+	width: 200px;
+	font-size: 20px;
+}
+
+#bk {
+	font-style: italic;
+	text-shadow: orange;
+	color: black;
+	border-radius: 150px;
+	background-color: lightred;
+	width: 200px;
+	font-size: 20px;
+}
+
+#mybody {
+	background-color: #165165;
+	background-size: cover;
+	size: auto;
+}
+
+#div1 {
+	background-color: lightgray;
+	background-size: cover;
+	margin: auto;
+	width: 1800px;
+	border-left: 2px solid White;
+	padding-left: 500px;
+}
+
+#tb1 {
+	padding-bottom: 200px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#myh1 {
+	font-style: italic;
+	color: white;
+}
+
+#td1 {
+	font-style: italic;
+	font-weight: bold;
+	color: #165165;
+	border-radius: 150px;
+	width: 200px;
+	font-size: 20px;
+	border: inset;
+}
+
+#un {
+	border-radius: 150px;
+	width: 200px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#sp {
+	font-style: italic;
+	text-shadow: orange;
+	color: black;
+	border-radius: 150px;
+	width: 200px;
+	font-size: 20px;
+}
+
+#sbt {
+	color: white;
+	font-style: italic;
+	background-color: #165165;
+	border-radius: 150px;
+	width: 200px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#mydiv {
+	border-color: #999999;
+	border-radius: 10px;
+	align-content: center;
+	background-color: lightgray;
+}
+
+#myform {
+	border-color: #999999;
+	border-radius: 50px;
+	position: absolute;
+	padding-left: 35%;
+	background-color: aliceblue;
+}
+
+#mytable {
+	align-content: center;
+	margin: auto;
+}
+
+#mytr {
+	border-color: #999999;
+	border-radius: 10px;
+	align-content: left;
+}
+
+#mybtm {
+	margin: auto;
+}
+
+.mytext {
+	border-radius: 10px;
+	align-content: center;
+}
+
+#myS {
+	background-color: darkyellow;
+}
+
+#mydiv {
+	border-color: yellow;
+	border-radius: 2%;
+	align-content: left;
+	background-color: palegoldenrod;
+}
+
+#BSub {
+	background-color: lightslategrey;
+	font-size: small;
+	font-family: fantasy;
+	border: solid;
+	inline-size: -webkit-fill-available;
+	-webkit-text-emphasis: double-circle;
+	text-align: -webkit-right;
+	color: yellow;
+}
+
+#myExam {
+	background-color: darkseagreen;
+}
+
+#tele {
+	border-radius: 15px;
+	inline-size: -webkit-fill-available;
+	background-color: yellow;
+}
+
+#reg {
+	border-radius: 15px;
+	inline-size: -webkit-fill-available;
+}
+
+#e1 {
+	color: yellow;
+}
+
+#em {
+	border-radius: 20px;
+	inline-size: -webkit-fill-available;
+}
+
+#Rtb {
+	border: inset;
+	background-color: gray;
+}
+
+.CH {
+	background-color: #00ffff;
+}
+
+#Qlabel {
+	border-style: outset;
+	border-left: double;
+	text-align: center;
+	align: center;
+}
